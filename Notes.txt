@@ -1,0 +1,62 @@
+-> Landing 
+    - header
+    - footer
+-> Dashboard
+    - header
+    - footer
+    - add video
+    - list video
+    - category
+-> History
+
+
+
+
+
+
+
+
+->project create
+->Clean up
+->basic css
+->react-bootstrap intall
+        npm i react-bootstrap bootstrap
+->set bootstrap theme
+       bootswatch.com[bootstrap.min.css]
+->pages & components
+->Routing of pages and components
+        react-router dom
+        npm i react-router-dom
+
+    Axios
+*****************
+.package with method for XmlhttpRequests
+.handile data trasfermation itself
+- to install axios
+    npm i axios
+
+
+- axios request structure
+     basic get request
+     axios.get("url")
+     other request
+     const req=axios.create({options})
+
+
+    {options}=>
+         {
+            base_url:"localhost:1000",
+            url:"/allvideos",
+            method:"post",
+            headers:{"content-type":"application/json"/"text/plane"/"multipart/form-data"},
+            data:{"caption:caption"/url:"videosurl"/image:"img-address-url"}
+         } 
+
+    ->using axios() methods
+
+      axios(){
+            url:"http//:localhost:3000/allvideos",
+            method:"post",
+            headers:{"content-type":"application/json"/"text/plane"/"multipart/form-data"},
+            data:{"caption:caption"/url:"videosurl"/image:"img-address-url"}
+      }then
